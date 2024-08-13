@@ -2,10 +2,11 @@
   "name": "real-time-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,10 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4",
     "socket.io": "^4.7.5",
-    "socketio": "^1.0.0",
     "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
