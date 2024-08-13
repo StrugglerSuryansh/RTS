@@ -25,7 +25,7 @@ This Real-Time Location Sharing App is a web application that allows users to sh
 ## Getting Started
 
 1. **Clone the Repository:**
-```bash
+   ```bash
    git clone https://github.com/StrugglerSuryansh/realTimeTrackingSysytem.git
    cd realTimeTrackingSysytem```
 
